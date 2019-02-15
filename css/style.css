@@ -195,11 +195,12 @@ img{
 }
 .main-menu{
 	position: fixed;
-	top: 60px;
-	left: 0;
+	top: 0;
 	bottom: 0;
 	width: 100%;
+	max-width: 640px;
 	z-index: 999;
+	display: none;
 }
 .main-menu .menu-mask{
 	position: absolute;
@@ -210,7 +211,7 @@ img{
 }
 .main-menu .menu-list{
 	position: absolute;
-    top: 0;
+    top: 60px;
     bottom: 0;
     background-color: rgba(174,195,64,1);
     z-index: 999;
@@ -218,23 +219,86 @@ img{
 	color: #fff;
 	z-index: 2;
 	padding: 20px;
-	font-size: 1rem;
 	width: 80%;
 }
-.main-menu .menu-list li{
+.menu-list li{
 	height: 40px;
 	line-height: 40px;
+	font-size: 1rem;
 }
-.main-menu .menu-list li:not(:first-child){
+.menu-list li:not(:first-child){
 	border-top: 1px solid #fff;
 }
-.main-menu a{
+.menu-list a{
 	color: #fff;
 }
+.menu-list li.language-box{
+	height: auto;
+	padding-top: 20px;
+}
+.menu-list li .language {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 4px;
+	cursor: pointer;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-right: 20px;
+}
+.menu-list li .language.active {
+	color: rgba(15,113,142,1);
+	border: 1px solid rgba(15,113,142,1);
+}
 
+/*-------------------footer样式-----------------------*/
+.main-footer{
+	background-color: #000;
+	color: #fff;
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+.main-footer .menu-list{
+	padding: 0 20%;
+	text-align: center;
+}
+.main-footer .ewm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	font-size: 1rem;
+}
+.main-footer .ewm>img{
+	margin-bottom: 15px;
+}
+.main-footer .logo-box{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.main-footer a{
+	color: #fff;
+}
+.main-footer .text-box{
+	padding: 20px 30px;
+}
+.main-footer .text-box .text1{
+	margin-bottom: 10px;
+}
 
+/*内容*/
 .page-wrapper{
-	padding-top: 85px;
+	/* padding-top: 59px; */
 }
 	
 /*** 
@@ -528,6 +592,7 @@ img{
 
 #footerBox{
 	height: 100%;
+	width: 100%;
 }
 /*--------公共样式-------*/
 /*白色*/

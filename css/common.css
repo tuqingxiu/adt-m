@@ -234,29 +234,6 @@ ul,ol{
 .nav-slide-down{
     top: 33px;
 }
-.language-box{
-	height: auto;
-}
-.language {
-    display: inline-block;
-    font-size: 12px;
-    border-radius: 50%;
-    border: 1px solid transparent;
-    width: 35px;
-    height: 35px;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
-    margin: 0 4px;
-	cursor: pointer;
-	color: #fff;
-	border: 1px solid #fff;
-	margin-right: 20px;
-}
-.language.active {
-	color: rgba(15,113,142,1);
-	border: 1px solid rgba(15,113,142,1);
-}
 
 /*手机菜单*/
 .bg{
