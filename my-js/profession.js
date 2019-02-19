@@ -4,33 +4,16 @@ $(function() {
 		setHeaderShow();
 	});
     goDesignatedLocation();
-    animate1();
-    animate2();
-    animate3();
+    initSwiper1();
 })
-//鼠标放上，显示其它颜色图标
-function animate1(){
-    $('.section6 .content1 .cont4 .item-box').hover(function(){
-        $(this).addClass('active');
-    },function(){
-        $(this).removeClass('active');
-    })
-}
-//遮罩层
-function animate2(){
-    $('#college-box .item-box>.content-box').hover(function(){
-        $(this).find('.content-box').fadeIn();
-    },function(){
-        $(this).find('.content-box').fadeOut();
-    })
-}
-//办公环境 遮罩层
-function animate3(){
-    $('.section8 .slide').hover(function(){
-        $(this).find('.cont-box').fadeIn().removeClass('fadeOutDown').addClass('fadeInUp');
-    },function(){
-        $(this).find('.cont-box').removeClass('fadeInUp').addClass('fadeOutDown').fadeOut();
-    })
+//三个原则切换
+function initSwiper1(){
+    //初始化swiper
+    var slideSwiper = new Swiper('#swiper1', {
+        loop: true,
+        speed: 800,
+        autoplay : 3000
+    });
 }
 //跳转到指定位置
 function getUrlParam(name){

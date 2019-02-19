@@ -14,7 +14,7 @@
 <link href="css/slick.css" rel="stylesheet">
 <!-- <link href="css/responsive.css" rel="stylesheet"> -->
 <link href="css/style.css" rel="stylesheet">
-
+<link href="css/map.css" rel="stylesheet">
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -58,6 +58,34 @@
     border-radius: 3px;
     margin: 0 5px;
 }
+.section4 .content1{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+}
+.section4 .content1 .item-box{
+	width: 33%;
+	font-size: 0.75rem;
+}
+.section4 .content1 .item-box>img{
+	width: 50%;
+}
+.section4 .content1 .item-box .text{
+	margin-top: 5px;
+}
+.section4 .current-info{
+	position: absolute;
+    top: 30%;
+    width: 45%;
+    left: 20px;
+    text-align: center;
+    color: #fff;
+}
+.section4 .current-text{
+	margin-top: 5px;
+}
 </style>
 </head>
 
@@ -100,6 +128,82 @@
 	</section>
 	<section class="section4">
 		<img src="images/about/4-1.jpg" />
+		<div class="content-box">
+			<div class="content1">
+				<div class="item-box">
+					<img src="images/icons/round_01.png" />
+					<div class="text">1个JCI认证技术中心</div>
+				</div>
+				<div class="item-box">
+					<img src="images/icons/round_02.png" />
+					<div class="text">11家制造工厂</div>
+				</div>
+				<div class="item-box">
+					<img src="images/icons/round_03.png" />
+					<div class="text">4300+名员工</div>
+				</div>
+			</div>
+			<div class="current-info animated ani-time2">
+				<img class="current-img" src="images/about/cq-yf.png">
+				<div class="current-text">重庆延锋安道拓汽车部件系统有限公司</div>
+			</div>
+			<div class="china-map">
+				<img class="img-map" src="images/icons/map_black_bg.png" />
+				<div class="region-list active postition-1 online-node" data-type="成都延锋安道拓汽车部件系统有限公司" data-img="images/about/cd.png">
+					<div class="area-box">
+						<span class="dot"><img src="images/icons/marker1.png"></span>
+					</div>
+					<div class="show-regin"><span>成都</span></div>
+				</div>
+				<div class="region-list color1 active postition-2 online-node" data-type="重庆延锋安道拓汽车部件系统有限公司" data-img="images/about/cq-yf.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker2.png"></span>
+					</div>
+					<div class="show-regin allRegin"><span>重庆</span></div>
+				</div>
+				<div class="region-list color1 postition-2-1 online-node" data-type="重庆延锋安道拓汽车部件系统有限公司江津分公司" data-img="images/about/cq-jj.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+					</div>
+					<div class="show-regin"></div>
+				</div>
+				<div class="region-list color1 postition-2-2 online-node" data-type="重庆延锋安道拓锋奥汽车部件系统有限公司" data-img="images/about/cq-fa.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+					</div>
+					<div class="show-regin"></div>
+				</div>
+				<div class="region-list active postition-3 online-node" data-type="南昌延锋安道拓汽车部件系统有限公司" data-img="images/about/nc.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+					</div>
+					<div class="show-regin"><span>南昌</span></div>
+				</div>
+				<div class="region-list waite postition-4 waite-node" data-type="重庆延锋安道拓汽车部件系统有限公司东莞分公司" data-img="images/about/dg.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+						</div>
+					<div class="show-regin"><span>东莞</span></div>
+				</div>
+				<div class="region-list waite postition-5 waite-node" data-type="台州延锋安道拓汽车部件系统有限公司" data-img="images/about/tz.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+						</div>
+					<div class="show-regin"><span>台州</span></div>
+				</div>
+					<div class="region-list active postition-6 online-node" data-type="杭州延锋安道拓汽车部件系统有限公司" data-img="images/about/hz.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+					<div class="show-regin"><span>杭州</span></div>
+				</div>
+				<div class="region-list active postition-7 online-node" data-type="哈尔滨延锋安道拓汽车部件系统有限公司" data-img="images/about/heb.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+					<div class="show-regin"><span>哈尔滨</span></div>
+				</div>
+				<div class="region-list  active  postition-8 online-node" data-type="大庆延锋安道拓汽车部件系统有限公司" data-img="images/about/dq.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+					<div class="show-regin"><span>大庆</span></div>
+				</div>
+				<div class="region-list  active  postition-9 online-node" data-type="湘潭延锋安道拓汽车部件系统有限公司" data-img="images/about/xt.png">
+					<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+					<div class="show-regin"><span>湘潭</span></div>
+				</div>
+			</div>
+		</div>
+		
 	</section>
 	<section class="section5">
 		<img src="images/about/5-1.jpg" />

@@ -878,11 +878,8 @@ ul,ol{
 }
 .china-map {
 	position: absolute;
-	width: 23%;
-	right: 5%;
-	top: 30%;
-	transition: 1s ease-in-out;
-	z-index: 10;
+    bottom: 20px;
+    right: 20px;
 }
 
 .thailand{

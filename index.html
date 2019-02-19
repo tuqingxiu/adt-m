@@ -14,6 +14,7 @@
 <link href="css/slick.css" rel="stylesheet">
 <!-- <link href="css/responsive.css" rel="stylesheet"> -->
 <link href="css/style.css" rel="stylesheet">
+<link href="css/map.css" rel="stylesheet">
 
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -38,9 +39,34 @@
     bottom: 100px;
     left: 50px;
 }
+.section5 .china-map{
+	bottom: 15%;
+}
+.section5 .content{
+	position: absolute;
+    top: 0;
+    left: 40px;
+	z-index: 10;
+	font-size: 1rem;
+}
+.section5 .cont1{
+	margin: 40px 0 30px;
+}
+.section5 .cont3{
+	margin: 25px 0;
+}
+.section5 .counter-title{
+	margin-left: 3px;
+}
+.section6{
+	margin: 5px 0;
+}
 .section6 .content1{
 	position: relative;
     text-align: center;
+}
+.section6 .content1>div{
+	width: 100%;
 }
 .section7 .content{
 	position: absolute;
@@ -113,7 +139,79 @@
 	</section>
 	<section class="section5">
 		<img src="images/index/5-1.jpg" />
-		
+		<div class="china-map">
+			<img class="img-map" src="images/icons/map_black_bg.png" />
+			<div class="region-list active postition-1 online-node" data-type="成都延锋安道拓汽车部件系统有限公司" data-img="images/about/cd.png">
+				<div class="area-box">
+					<span class="dot"><img src="images/icons/marker1.png"></span>
+				</div>
+				<div class="show-regin"><span>成都</span></div>
+			</div>
+			<div class="region-list color1 active postition-2 online-node" data-type="重庆延锋安道拓汽车部件系统有限公司" data-img="images/about/cq-yf.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker2.png"></span>
+				</div>
+				<div class="show-regin allRegin"><span>重庆</span></div>
+			</div>
+			<div class="region-list color1 postition-2-1 online-node" data-type="重庆延锋安道拓汽车部件系统有限公司江津分公司" data-img="images/about/cq-jj.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+				</div>
+				<div class="show-regin"></div>
+			</div>
+			<div class="region-list color1 postition-2-2 online-node" data-type="重庆延锋安道拓锋奥汽车部件系统有限公司" data-img="images/about/cq-fa.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+				</div>
+				<div class="show-regin"></div>
+			</div>
+			<div class="region-list active postition-3 online-node" data-type="南昌延锋安道拓汽车部件系统有限公司" data-img="images/about/nc.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+				</div>
+				<div class="show-regin"><span>南昌</span></div>
+			</div>
+			<div class="region-list waite postition-4 waite-node" data-type="重庆延锋安道拓汽车部件系统有限公司东莞分公司" data-img="images/about/dg.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+					</div>
+				<div class="show-regin"><span>东莞</span></div>
+			</div>
+			<div class="region-list waite postition-5 waite-node" data-type="台州延锋安道拓汽车部件系统有限公司" data-img="images/about/tz.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span>
+					</div>
+				<div class="show-regin"><span>台州</span></div>
+			</div>
+				<div class="region-list active postition-6 online-node" data-type="杭州延锋安道拓汽车部件系统有限公司" data-img="images/about/hz.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+				<div class="show-regin"><span>杭州</span></div>
+			</div>
+			<div class="region-list active postition-7 online-node" data-type="哈尔滨延锋安道拓汽车部件系统有限公司" data-img="images/about/heb.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+				<div class="show-regin"><span>哈尔滨</span></div>
+			</div>
+			<div class="region-list  active  postition-8 online-node" data-type="大庆延锋安道拓汽车部件系统有限公司" data-img="images/about/dq.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+				<div class="show-regin"><span>大庆</span></div>
+			</div>
+			<div class="region-list  active  postition-9 online-node" data-type="湘潭延锋安道拓汽车部件系统有限公司" data-img="images/about/xt.png">
+				<div class="area-box"><span class="dot"><img src="images/icons/marker1.png"></span></div>
+				<div class="show-regin"><span>湘潭</span></div>
+			</div>
+		</div>
+		<div class="content my-color1">
+			<div class="cont1 my-color2 font1">业务概况</div>
+			<div class="cont2 count-box inner">
+				<span class="count-text mytimer my-color2 my-font7" data-speed="6000" data-stop="4300" >4300</span><span class="my-color2 my-font7">+</span>
+				<span class="space">名</span>
+				<span class="counter-title">员工人数</span>
+			</div>
+			<div class="cont3 count-box inner">
+				<span class="count-text mytimer my-color2 my-font7" data-speed="8000" data-stop="50" >50</span>
+				<span class="space">亿元</span>
+				<span class="counter-title" >2018年销售额</span>
+			</div>
+			<div class="cont4 count-box inner">
+				<span class="count-text mytimer my-color2 my-font7" data-speed="6000" data-stop="11" >11</span>
+				<sapn class="space">家</sapn>
+				<span class="counter-title">全国工厂</span>
+			</div>
+		</div>
 	</section>
 	<section class="section6">
 		<div class="content1">

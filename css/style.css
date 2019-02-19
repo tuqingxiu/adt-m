@@ -648,6 +648,10 @@ section{
 .my-bg-color7{
 	background-color: rgba(0,70,91,1);
 }
+/*白色透明*/
+.my-bg-color8{
+	background-color: rgba(255,255,255,0.7);
+}
 
 .my-font1{
 	font-size: 1rem;
@@ -668,6 +672,10 @@ section{
 }
 .my-font6{
 	font-size: 1.125rem;
+	font-weight: 600;
+}
+.my-font7{
+	font-size: 1.5rem;
 	font-weight: 600;
 }
 /*行居中*/
