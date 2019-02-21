@@ -652,10 +652,14 @@ section{
 .my-bg-color8{
 	background-color: rgba(255,255,255,0.7);
 }
+/*蓝色透明2*/
+.my-bg-color9{
+	background-color: rgba(4,69,87,0.5);
+}
 
 .my-font1{
 	font-size: 1rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 .my-font2{
 	font-size: 0.875rem;
@@ -668,15 +672,15 @@ section{
 }
 .my-font5{
 	font-size: 1.25rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 .my-font6{
 	font-size: 1.125rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 .my-font7{
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 /*行居中*/
 .my-row-center{
